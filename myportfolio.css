@@ -1,0 +1,192 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  
+
+}
+
+
+.nav1{
+ 
+  background-color: chartreuse;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  padding: 20px 10px 20px 10px;
+  border: 2px solid black;
+ 
+ 
+  
+}
+
+
+
+
+.nav2{
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+.nav3{
+  display: flex;
+  
+  align-items: center;
+  padding: 20px 50px 20px 20px;
+  animation: div1 1s ease forwards;
+}
+.nav4{
+ padding: 20px 20px 20px 20px ;
+
+
+}
+
+button{
+  font-weight: 700;
+ 
+  background-color:gold;
+  border: 2px palevioletred solid;
+  border-radius: 5px;
+  opacity: 0.8;
+  
+}
+.nav4:active{
+  scale: 1.5;
+  color: red;
+
+}
+.nav4:hover{
+  scale: 2;
+  color: red;
+
+}
+
+
+
+body{
+  background-color: rgb(27, 4, 48);
+  color: aliceblue;
+}
+.b{
+  height: 400px;
+  width: 100%;
+  margin: 50x 50px 50px 50px;
+  padding-top:150px ;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 150px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.b1{
+  font-family:'Times New Roman', Times, serif;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(13, 21, 112);
+  padding: 20px 20px 20px 20px ;
+  border: 5px palevioletred dashed;
+  border-radius: 20px;
+  background-image: url(niki4.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-position: center;
+  animation: div0 1s ease forwards;
+}
+
+.b2{
+  
+  width: 500px;
+  height: 400px;
+  background-image: url(niki3.jpeg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  border: 5px palevioletred dashed;
+  border-radius: 20px;
+  margin-right: 50px;
+  animation: div 1s ease forwards;
+ 
+}
+
+
+
+
+.d{
+  padding-left: 50px;
+  padding-top: 200px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  animation: div2 1s ease forwards;
+ 
+ 
+  
+}
+
+.d0{
+  display: flex;
+  justify-content: space-around;
+  border: 4px palevioletred dotted;
+  background-image: url(niki6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1.5;
+  padding: 20px 20px 20px 20px;
+  border-radius: 25px;
+
+}
+
+.d1{
+  border: 2px black solid;
+
+
+}
+
+@keyframes div {
+  0%{
+    transform: translateX(-250px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+
+@keyframes div0 {
+  0%{
+    transform: translateX(250px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes div1 {
+  0%{
+    transform: translateY(-250px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes div2 {
+  0%{
+    transform: translateY(250px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
